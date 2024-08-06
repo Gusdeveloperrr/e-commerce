@@ -1,0 +1,663 @@
+/* Estilos para la página de carrito de compras */
+
+/* Fondo y espacio general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la tarjeta de producto */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los botones */
+.btn {
+    font-size: 16px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Estilos para el total de la compra */
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Estilos para el formulario de compra */
+form {
+    margin-top: 20px;
+}
+
+/* Estilos para el chat comunitario */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor del chat */
+#chatContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el área de entrada de texto */
+#chatBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el registro de mensajes */
+#messagesLogs {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para el formulario de checkout */
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.grupo-btn {
+    margin-top: 20px;
+}
+
+.btnMios {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btnMios:hover {
+    background-color: #0056b3;
+}
+
+.noSub {
+    margin-right: 10px;
+}
+
+/* Estilos para el carousel y la página de juegos */
+
+/* Estilos para el carousel */
+.carousel-item {
+    height: 500px;
+    /* Fija la altura del carrusel */
+    overflow: hidden;
+    /* Oculta cualquier parte de la imagen que se salga del contenedor */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra completamente el contenedor del carrusel */
+    object-position: center;
+    /* Centra la imagen en el contenedor */
+}
+
+
+
+
+
+/* Estilos para el título de juegos populares */
+.tituloProductos {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.tituloProductos h2 {
+    font-size: 36px;
+    color: #fffdfd;
+}
+
+/* Estilos para los testimonios */
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #fbf9f9;
+}
+
+/* Estilos para el formulario de inicio de sesión "gamer" */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ff9900;
+    /* Amarillo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #030303;
+    /* Negro */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-size: 18px;
+    color: #ff9900;
+    /* Amarillo */
+}
+
+/* Estilos para los campos de entrada */
+.inputMessi {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    /* Negro */
+    color: #fff;
+    /* Blanco */
+}
+
+/* Estilos para el botón de login */
+.btnMios {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    /* Amarillo */
+    color: #222;
+    /* Negro */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnMios:hover {
+    background-color: #ffcc66;
+    /* Amarillo más claro */
+}
+
+/* Estilos para el enlace de restablecimiento de contraseña */
+p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    /* Blanco */
+}
+
+p a {
+    color: #ff9900;
+    /* Amarillo */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de restablecimiento de contraseña */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fffdfd;
+    /* Color oscuro */
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-size: 18px;
+    color: #fffbfb;
+    /* Color oscuro */
+    margin-top: 10px;
+    display: block;
+}
+
+/* Estilos para los campos de entrada */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    /* Borde gris */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de restablecimiento de contraseña */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    /* Texto blanco */
+    background-color: #007bff;
+    /* Azul */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #8a4670;
+    /* Azul más oscuro */
+}
+
+/* Estilos para mensajes de error */
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para la página de productos */
+
+/* Estilos para el encabezado */
+.d-flex {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    font-size: 36px;
+    color: #fdfcfc;
+    /* Texto blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra suave */
+}
+
+.ms-5 {
+    margin-left: 20px;
+    /* Espacio entre el título y el icono del carrito */
+}
+
+.cart-icon {
+    font-size: 32px;
+    color: #fff;
+    /* Icono del carrito en blanco */
+}
+
+/* Estilos para los productos */
+.container {
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 30px;
+    background-color: #222;
+    /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Sombra suave */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #fff;
+    /* Texto blanco */
+}
+
+.card-text {
+    font-size: 16px;
+    color: #ccc;
+    /* Texto gris */
+    margin-bottom: 15px;
+}
+
+.btnMios {
+    background-color: #007bff;
+    /* Azul */
+    color: #fff;
+    /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnMios:hover {
+    background-color: #a35b8c;
+    /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para la paginación */
+.text-center a,
+.text-center p {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #fff;
+    /* Texto blanco */
+}
+
+/* Estilos para la página de perfil */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fffefe;
+    /* Color oscuro */
+}
+
+/* Estilos para el contenedor del perfil */
+.profile-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222;
+    /* Negro */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Estilos para los párrafos */
+.profile-card p {
+    font-size: 18px;
+    color: #902278;
+    /* Blanco */
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de logout */
+.btnMios {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    /* Texto blanco */
+    background-color: #007bff;
+    /* Azul */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnMios:hover {
+    background-color: #f375c9;
+    /* Azul más oscuro */
+}
+
+/* Estilos para los enlaces */
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    /* Texto blanco */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el encabezado "full gamer" */
+
+/* Estilos generales */
+.encabezado {
+    background-color: #000;
+    /* Negro */
+    color: #fff;
+    /* Blanco */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el logo */
+.tamLogo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Estilos para el botón de hamburguesa */
+.navbar-toggler-icon {
+    background-color: #fff;
+    /* Blanco */
+}
+
+/* Estilos para los elementos de la barra de navegación */
+.fuentesNav a {
+    font-family: 'Press Start 2P', cursive;
+    /* Fuente de estilo de juego */
+    font-size: 18px;
+    color: #fff;
+    /* Blanco */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fuentesNav a:hover {
+    color: #ff9900;
+    /* Amarillo (color gamer) */
+    transition: color 0.3s;
+}
+
+/* Estilos para los ítems de la barra de navegación */
+.nav-item {
+    margin-left: 20px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+/* Estilos para el botón de perfil */
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+/* Estilos para la sección de chat */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor del chat */
+#chatBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el registro de mensajes */
+#messagesLogs {
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #090909;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+/* Estilos para los scripts */
+script {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Estilos para el registro de mensajes */
+#messagesLogs {
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 200px;
+    overflow-y: auto;
+    color: #f2f1f1;
+    /* Cambia el color del texto a negro */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Agrega una sombra al texto */
+}
+
+.logo-link {
+    display: inline-block;
+    /* Hace que el enlace abarque solo el tamaño de la imagen */
+    margin-right: 20px;
+    /* Espacio entre el logo y el botón de hamburguesa */
+}
+
+.mt-2 {
+    color: #fbf9f9;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    /* Color de fondo */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    /* Color del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
