@@ -11,7 +11,7 @@ class ProductRepository {
             const existeProducto = await ProductModel.findOne({ code: code });
 
             if (existeProducto) {
-                console.log("El código debe ser único, malditooo!!!");
+                console.log("El código debe ser único");
                 return;
             }
 
@@ -60,12 +60,12 @@ class ProductRepository {
                 .limit(limit);
 
             const totalProducts = await ProductModel.countDocuments(queryOptions);
-            
+
             const totalPages = Math.ceil(totalProducts / limit);
-            
+
             const hasPrevPage = page > 1;
             const hasNextPage = page < totalPages;
-            
+
 
             return {
                 docs: productos,
@@ -92,7 +92,7 @@ class ProductRepository {
                 return null;
             }
 
-            console.log("Producto encontrado!! Claro que siiiiii");
+            console.log("Producto encontrado!");
             return producto;
         } catch (error) {
             throw new Error("Error");
@@ -107,7 +107,7 @@ class ProductRepository {
                 return null;
             }
 
-            console.log("Producto actualizado con exito, como todo en mi vidaa!");
+            console.log("Producto actualizado con exito");
             return actualizado;
         } catch (error) {
             throw new Error("Error");
@@ -119,7 +119,7 @@ class ProductRepository {
             const deleteado = await ProductModel.findByIdAndDelete(id);
 
             if (!deleteado) {
-                console.log("No se encuentraaaa, busca bien!");
+                console.log("Producto no encontrado!");
                 return null;
             }
 

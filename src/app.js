@@ -51,30 +51,3 @@ const SocketManager = require("./sockets/socketmanager.js");
 new SocketManager(httpServer);
 
 
-
-//Codigo actualizar cantidades:
-// async updateProductQuantity(cartId, productId, updatedQuantity) {
-//     try {
-//       const cartItem = await CartModel.findById(cartId);
-//       if (!cartItem) {
-//         throw new Error('Invalid cart id');
-//       }
-
-//       const product = cartItem.products.find(
-//         (item) => item.product._id.toString() === productId
-//       );
-
-//       if (!product) {
-//         throw new Error('Invalid product id');
-//       }
-
-//       product.quantity = updatedQuantity;
-//       cartItem.markModified('products');
-//       await cartItem.save();
-
-//       return cartItem;
-//     } catch (error) {
-//       console.error('Error while updating the product quantity', error);
-//       throw new Error(error);
-//     }
-//   }

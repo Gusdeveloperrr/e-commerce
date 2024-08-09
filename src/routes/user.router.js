@@ -11,9 +11,7 @@ router.get("/profile", passport.authenticate("jwt", { session: false }), userCon
 router.post("/logout", userController.logout.bind(userController));
 router.get("/admin", passport.authenticate("jwt", { session: false }), userController.admin);
 
-//Tercer integradora: 
 
-//Nueva ruta!
 router.post("/requestPasswordReset", userController.requestPasswordReset);
 router.post("/reset-password", userController.resetPassword);
 router.put("/premium/:uid", userController.cambiarRolPremium);

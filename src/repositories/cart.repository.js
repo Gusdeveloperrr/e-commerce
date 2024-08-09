@@ -35,7 +35,7 @@ class CartRepository {
                 carrito.products.push({ product: productId, quantity });
             }
 
-            //Vamos a marcar la propiedad "products" como modificada antes de guardar: 
+
             carrito.markModified("products");
 
             await carrito.save();
@@ -82,13 +82,13 @@ class CartRepository {
             const cart = await CartModel.findById(cartId);
 
             if (!cart) {
-                
+
                 throw new Error('Carrito no encontrado');
             }
-            
-            
+
+
             const productIndex = cart.products.findIndex(item => item._id.toString() === productId);
-        
+
             if (productIndex !== -1) {
                 cart.products[productIndex].quantity = newQuantity;
 
